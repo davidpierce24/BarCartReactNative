@@ -6,8 +6,8 @@ const BottomNavigation = () => {
 
 return (
     <View className='flex items-center pt-4 pb-2'>
-        <TouchableOpacity>
-            <Feather name="plus-circle" size={40} color="#FFFFFF" />
+        <TouchableOpacity className='bg-white rounded-full shadow-md shadow-slate-700/50'>
+            <Feather name="plus-circle" size={50} color="#155e75" />
         </TouchableOpacity>
     </View>
 )
