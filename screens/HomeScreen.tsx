@@ -17,7 +17,7 @@ const HomeScreen = () => {
         })
     }, [])
 
-    const data = ["Jack Daniels", "Captain Morgan", "Evan Williams", "Jim Beam", "Raleigh Rum Company", "Tito's", "Midori", "Baileys Creamy"]
+    const data = ["Jack Daniels", "Captain Morgan", "Evan Williams", "Jim Beam", "Raleigh Rum Company", "Tito's", "Midori", "Baileys Creamy", "Eagle Rare", "Kraken", 'El Dorado 12 year']
 
 return (
 <SafeAreaView className='bg-cyan-800'>

@@ -4,8 +4,8 @@ import React from 'react'
 const TopNavigation = () => {
 
 return (
-    <View className='w-full flew-row items-center pt-4 bg-cyan-800'>
-        <Text className='text-3xl text-white'>BarCart</Text>
+    <View className='w-full flew-row items-center p-4 bg-cyan-800'>
+        <Text className='text-3xl text-white font-bold'>BarCart</Text>
     </View>
 )
 }
