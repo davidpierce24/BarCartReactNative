@@ -1,5 +1,5 @@
 import { useLayoutEffect } from 'react'
-import { View, Text, SafeAreaView, ScrollView, TouchableOpacity } from 'react-native'
+import { View, Text, SafeAreaView, ScrollView, TouchableOpacity, TextInput } from 'react-native'
 // import { styled } from 'nativewind/dist/styled';
 import React from 'react'
 import { useNavigation } from '@react-navigation/native';
@@ -24,8 +24,10 @@ return (
 <SafeAreaView className='bg-cyan-800'>
     <View className='h-full'>
         <TopNavigation />
+        
 
         <ScrollView className='px-5 py-2 bg-cyan-800 flex-col'> 
+        <TextInput className='bg-black/30 rounded-lg h-12 text-white px-2 font-bold text-lg pb-2 sticky top-0 mx-5 left-0 right-0' placeholder='Search' placeholderTextColor='#949494' cursorColor='#ffffff' />
             {data?.map((data) => (
                 <TouchableOpacity key={data} className='w-full bg-gray-800/25 rounded-xl flex items-center p-5 mt-5'>
                     <Text className='text-xl text-white'>{data}</Text>
